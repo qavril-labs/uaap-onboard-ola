@@ -12,4 +12,8 @@ SPEC = BotSpec(
     needs_model=True,
     needs_inbox=False,
     summary="Onboarding checklists, equipment and access proposals.",
+    examples=(
+        "Create first-week onboarding checklist for Jane Doe starting in finance.",
+        "Propose system access for John Smith in engineering.",
+    ),
 )
